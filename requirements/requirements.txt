@@ -1,0 +1,20 @@
+# ------解析器--------
+myst-parser
+# myst_nb
+
+# --------主题-------------
+sphinx-book-theme
+
+
+# 功能性插件
+# sphinx_thebe
+sphinx_copybutton
+sphinx_design
+# sphinx-tabs
+# sphinx_togglebutton
+# sphinxcontrib-mermaid
+# ablog
+# sphinx_comments
+
+# markdown-it-py 的可扩展插件
+linkify-it-py
