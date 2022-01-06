@@ -56,6 +56,7 @@ extensions = [
     "myst_parser",
     "sphinx_design",
     "sphinx_copybutton",
+    "sphinx_togglebutton",
 ]
 # "sphinx.ext.todo" : 对TODO项的支持
 # "sphinx.ext.intersphinx" :链接到其他项目的文档
@@ -83,6 +84,29 @@ myst_linkify_fuzzy_links = False
 myst_substitutions = {}
 # default is ['{', '}']，替换指令分隔符，不建议更改
 # myst_sub_delimiters = ["|", "|"]
+
+# -- global replace order configuration are as follows---
+# 全局字符串替换指令
+# 需要注意的是，全局加入替换的功能要谨慎使用，要酌情使用；因为在这里添加后会影响到项目所有的 rst 文件（在所有 rst 文件中添加定义的替换指令）
+# 一串 reStructuredText，它将包含在每个读取的源文件的末尾。 这是一个可以添加应该在每个文件中可用的替换的地方
+rst_prolog = """
+.. |15| raw:: html
+      
+      <hr width='15%'>
+
+.. |30| raw:: html
+      
+      <hr width='30%'>
+      
+.. |50| raw:: html
+      
+      <hr width='50%'>
+
+.. |75| raw:: html
+      
+      <hr width='75%'>
+
+"""
 
 # 图片编号功能
 # -- numfig configuration are as follows---

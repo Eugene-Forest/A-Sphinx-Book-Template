@@ -19,9 +19,11 @@ Read The Docs 运行环境推荐配置 <./recommend/cloud-env-config>
 ```
 
 ```{toctree}
-:caption: Syntax
-:hidden:
-:maxdepth: 2
+:caption: "构建文档的工具和标记语言"
+:maxdepth: 1
 
-基础语法 <./syntax/base>
+Sphinx 工具和 reST 标记语言 <syntax/sphinx/sphinx-index>
+Markdown 标记语言 <syntax/markdown/md-index>
+MyST <syntax/MyST/myst-index>
+Sphinx 扩展工具 <syntax/extend/ext-index>
 ```
