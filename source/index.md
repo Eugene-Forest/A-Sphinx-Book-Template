@@ -11,11 +11,11 @@
 
 
 
-## MyST Markdown
+## `MyST Markdown`
 
 本文章推荐使用 MyST Markdown 作为编写文档的语言。
 
-### 为什么使用 MyST Markdown
+### 为什么使用 `MyST Markdown`
 
 虽然 Markdown 无处不在，但它的功能还不足以编写现代的、功能齐全的文档。为此需要一些 Markdown 支持功能，但没有围绕这些功能的各种语法选择的社区标准。
 
@@ -23,7 +23,7 @@
 
 MyST 试图将 Markdown 的简单性和可读性与 reStructuredText 和 Sphinx 平台的强大功能和灵活性相结合。它以 CommonMark 降价规范为基础，并有选择地添加了一些额外的语法片段以利用 reStructuredText 最强大的部分。
 
-### MyST Markdown、reStructuredText 和 Sphinx 之间的关系
+### `MyST Markdown` 、 `reStructuredText` 和 `Sphinx` 之间的关系
 
 MyST Markdown 提供了与 reStructuredText 语法等效的 Markdown，这意味着您可以在 MyST 中做任何可以用 reStructuredText 做的事情。
 
@@ -57,7 +57,7 @@ pip install sphinx-autobuild
 pip install sphinx-copybutton
 ```
 
-### 在 VS Code 中安装推荐插件
+### 在 `VS Code` 中安装推荐插件
 
 笔者使用 VS Code 编写此项目的，因为 VS Code 提供了我们所需的语法高亮和提示功能。
 
@@ -72,16 +72,16 @@ pip install sphinx-copybutton
 
 > 需要注意的是，`sphinx-copybutton` 插件对文档索引的更新没办法做到动态更新，所以如果在对项目文档的目录修改后，会出现不同页面的左侧边栏目录不同的情况。
 
-### 通过 bash 终端执行自动构建工具
+### 通过 `bash` 终端执行自动构建工具
 
 我们可以通过命令行来执行 autobuild.sh 文件，打开 bash 终端然后直到此项目的根目录( `source` 目录的父目录)，然后执行命令 `$ ./autobuild.sh`。
 
-### 通过 powershell 终端执行自动构建工具
+### 通过 `powershell` 终端执行自动构建工具
 
 我们可以通过命令行来执行 autobuild.bat 文件，打开 bash 终端然后直到此项目的根目录( `source` 目录的父目录)，然后执行命令 `> .\autobuild.sh`。
 
 
-## Read The Docs 运行环境推荐配置
+## `Read The Docs` 运行环境推荐配置
 
 我们对 Read The Docs 的配置全部在 `.readthedocs.yaml` 和 `requirements/requirements.txt` 文件中，这些文件的配置会覆盖 Read The Docs 平台中的项目的配置。
 
