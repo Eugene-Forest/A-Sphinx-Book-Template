@@ -11,7 +11,7 @@ sphinx-book-theme
 sphinx_copybutton
 sphinx_design
 # sphinx-tabs
-# sphinx_togglebutton
+sphinx_togglebutton
 # sphinxcontrib-mermaid
 # ablog
 # sphinx_comments

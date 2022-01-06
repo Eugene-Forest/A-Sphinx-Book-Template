@@ -2,6 +2,8 @@
 
 # sphinx-autobuild
 
+> 需要注意的是，`sphinx-copybutton` 插件对文档索引的更新没办法做到动态更新，所以如果在对项目文档的目录修改后，会出现不同页面的左侧边栏目录不同的情况。
+
 在浏览器中实时重新加载有关更改的 Sphinx 文档。关于此项目的更多信息或建议前往 [executablebooks/sphinx-autobuild](https://github.com/executablebooks/sphinx-autobuild#readme) 查看。
 
 ## 安装

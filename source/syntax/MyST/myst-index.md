@@ -46,6 +46,8 @@ MyST 向 CommonMark 添加了几个新的语法选项，以便与 Sphinx 一起�
 
 本章节目的是讲解 MyST 的语法以及对应的渲染结果，所以需要频繁变动指令和查看结果。虽然 VS Code 支持 MyST 语法高亮，但是不支持对应的 ``.md`` 文件的预览功能，但是需要主动构建html文件或者通过预览 `rst` 文件来更新 `md` 文件的本地html构建结果，效率十分差；为此，我们可以使用 {ref}`sphinx-autobuild 插件 <sphinx-ext-autobuild>`，它能够支持在浏览器中实时重新加载有关更改的 Sphinx 文档。
 
+> 需要注意的是，`sphinx-copybutton` 插件对文档索引的更新没办法做到动态更新，所以如果在对项目文档的目录修改后，会出现不同页面的左侧边栏目录不同的情况。
+
 ```{toctree}
 :caption: MyST 语法学习
 :numbered:
