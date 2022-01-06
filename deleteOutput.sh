@@ -10,6 +10,7 @@ if [ -d "source/_build/" ];then
   rm -rf *
   echo "******成功删除 _build 文件夹下的所有文件************"
 else
-  echo "文件夹 source/_build/ 不存在"
+  echo "文件夹 source/_build/ 不存在，将为您创建 source/_build/ 文件夹..."
+  mkdir source/_build/
 fi
 
