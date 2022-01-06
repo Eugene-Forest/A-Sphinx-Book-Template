@@ -178,8 +178,8 @@ html_css_files = ["custom.css"]
 
 
 # 自定义徽标、和网站图标
-html_logo = "./_static/notebook-badge.svg"
-html_favicon = "./_static/notebook-badge.svg"
+html_logo = "./_static/template.svg"
+html_favicon = "./_static/template.svg"
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #html_title = None

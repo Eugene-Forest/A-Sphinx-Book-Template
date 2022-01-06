@@ -1,4 +1,4 @@
-# Recommend for Sphinx Book Template
+# MyST Markdown
 
 > **文档构建时间: {sub-ref}`today`**
 
