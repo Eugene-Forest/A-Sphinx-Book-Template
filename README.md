@@ -75,10 +75,15 @@ pip install sphinx-copybutton
 
 我们可以通过命令行来执行 autobuild.bat 文件，打开 bash 终端然后直到此项目的根目录( `source` 目录的父目录)，然后执行命令 `> .\autobuild.sh`。
 
+> 需要优化，即在运行前判断 source 文件夹下是否存在 _build 文件夹，若存在则删除自动构建或预览产生的html等文件
+
 
 ## `Read The Docs` 运行环境推荐配置
 
 我们对 Read The Docs 的配置全部在 `.readthedocs.yaml` 和 `requirements/requirements.txt` 文件中，这些文件的配置会覆盖 Read The Docs 平台中的项目的配置。
 
+## 样板主目录文件 `source/index.md` 和语法运行结果示例文件夹 `source/syntax/..`
+
+参考样板目录文件 `source/index.md` ，我们可以新建一个自定义的目录文件，然后参考示例文件夹编写笔记；当然，也可以使用自己的方式来编写。至于此模板的语法，可以参考示例文件有选择地适用。
 
 
